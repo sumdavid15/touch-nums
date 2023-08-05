@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInIt()">
+    <div class="container">
+        <div class="menu">
+            <div class="new-game btn" onclick="newGame()">New Game</div>
+            <div class="board-size">
+                <div class="small btn" onclick="changeBoardSize(4)">Small</div>
+                <div class="medium btn" onclick="changeBoardSize(6)">Medium</div>
+                <div class="Large btn" onclick="changeBoardSize(8)">Large</div>
+            </div>
+        </div>
+        <div class="status-bar">
+            <div class="next-number">Next number: 1</div>
+            <div class="timer">Click to start Timer</div>
+        </div>
+        <div class="board">
+            <!-- <table class="board"></table> -->
+        </div>
+    </div>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main2.js"></script>
+</body>
+
+</html>

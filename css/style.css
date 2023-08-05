@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    gap: 5px;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.status-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.board-size {
+    display: flex;
+    gap: 10px
+}
+
+.btn {
+    background-color: #3D311C;
+    color: antiquewhite;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #837d6f;
+}
+
+.status-bar {
+    background-color: rgb(125, 131, 131);
+    color: antiquewhite;
+    user-select: none;
+}
+
+.clicked {
+    background-color: #292e28 !important;
+}
+
+.board {
+    margin-top: 10px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.num-touch {
+    border: 2px solid black;
+    display: flex;
+    background-color: #c1af84;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.num-touch:hover {
+    background-color: #cbbb98;
+}
